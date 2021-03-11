@@ -1,0 +1,167 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+*{
+    box-sizing: border-box; 
+}
+html{
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* === Header Start === */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/hero-area.jpg");
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 0 0 0 12%;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+/* == Navigation starts== */
+.nav-full{
+    width: 100%;
+    border-bottom: 2px solid rgba(255,255,255,0.21);
+    padding: 0;
+}
+.nav{
+    padding: 0 1%;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 100;
+    color: #fff;
+}
+a:hover{
+    color: #eec41e;
+}
+li:hover{
+    border-bottom: 3px solid #eec41e;
+}
+.logo{
+    width: 28%;
+}
+ul{
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    padding: 30px 15px;
+    font-size: 1rem;
+}
+/* .yellow{
+    border-bottom: 3px solid #eec41e;
+} */
+.toggle{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.bar{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 3px;
+}
+/* == Navigation starts== */
+/* === banner start === */
+.banner{
+    padding-top: 100px;
+}
+.banner h1{
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+.yellow-h1{
+    color: #eec41e;
+}
+.banner P{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    background-color: #eec41e;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+
+/* === banner end === */
+/* ===header ends=== */
+/* === About Us start hear === */
+.about-us{
+    width: 100%;
+    padding: 7% 0;
+}
+.left{
+    width: 45.5%;
+}
+.left-img{
+    background-image: url("../image/about_image.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 12% 0 0;
+}
+.left h1{
+    font-size: 2.75rem;
+    line-height: 53px;
+    color: #38424d;
+    font-weight: 600;
+}
+.left p{
+    color: #747e88;
+    margin-top: 20px;
+    line-height: 27px;
+}
+.client-scores{
+    width: 100%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: left;
+}
+.box{
+    width: 40%;
+    text-align: center;
+    padding:25px 0;
+    box-shadow: 0 0 25px 0 rgb(173, 206, 243 / 25%);
+}
+.box h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+.box p{
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+/* === .about-us End === */
